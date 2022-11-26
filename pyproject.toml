@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cybersecurity-with-violent-python-book"
+version = "0.1.0"
+description = "Learning to use Python language as a pentesting tool"
+authors = ["kevinIsom <kevinisomcode1000@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+python3-nmap = "^1.6.0"
+pyPdf = "^1.13"
+pygeoip = "^0.3.2"
+mechanize = "^0.4.8"
+beautifulsoup4 = "^4.11.1"
+apt-wrapper = "^1.18"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
