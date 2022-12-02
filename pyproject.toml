@@ -12,6 +12,8 @@ pygeoip = "^0.3.2"
 mechanize = "^0.4.8"
 beautifulsoup4 = "^4.11.1"
 apt-wrapper = "^1.18"
+sudoaptinstall = "^0.3"
+scapy = "^2.4.5"
 
 [tool.poetry.dev-dependencies]
 

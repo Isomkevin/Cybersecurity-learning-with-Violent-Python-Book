@@ -3,9 +3,9 @@
   For more Information on said book, please visit the link below 
     https://www.goodreads.com/book/show/16192263-violent-python
 """
-from pyFile1 import pyFile1main
+from myViolentPython.zipCracker import mainFunc
 
-def mainFunc():
-  pyFile1main()
+def main():
+  mainFunc()
 
-mainFunc()
+main()

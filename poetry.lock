@@ -40,6 +40,14 @@ genshi = ["genshi"]
 lxml = ["lxml"]
 
 [[package]]
+name = "invoke"
+version = "1.7.3"
+description = "Pythonic task execution"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "mechanize"
 version = "0.4.8"
 description = "Stateful, programmatic web browsing"
@@ -83,6 +91,19 @@ python-versions = ">=3.6"
 simplejson = "*"
 
 [[package]]
+name = "scapy"
+version = "2.4.5"
+description = "Scapy: interactive packet manipulation tool"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4"
+
+[package.extras]
+basic = ["ipython"]
+complete = ["ipython", "pyx", "cryptography (>=2.0)", "matplotlib"]
+docs = ["sphinx (>=3.0.0)", "sphinx_rtd_theme (>=0.4.3)", "tox (>=3.0.0)"]
+
+[[package]]
 name = "simplejson"
 version = "3.18.0"
 description = "Simple, fast, extensible JSON encoder/decoder for Python"
@@ -107,6 +128,17 @@ optional = false
 python-versions = ">=3.6"
 
 [[package]]
+name = "sudoaptinstall"
+version = "0.3"
+description = "Python3 module to install APT Packages."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+invoke = "*"
+
+[[package]]
 name = "webencodings"
 version = "0.5.1"
 description = "Character encoding aliases for legacy web content"
@@ -117,17 +149,20 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "d294bc4b6a00aae408779aba8c6d152cfb9a3739434f58c837a3815a57272133"
+content-hash = "3d9016e52a641150c304cdde8bca361f4bb1dfb8b4be7160d126a6f9a3875821"
 
 [metadata.files]
 apt-wrapper = []
 beautifulsoup4 = []
 html5lib = []
+invoke = []
 mechanize = []
 pygeoip = []
 pypdf = []
 python3-nmap = []
+scapy = []
 simplejson = []
 six = []
 soupsieve = []
+sudoaptinstall = []
 webencodings = []
